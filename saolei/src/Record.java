@@ -53,7 +53,7 @@ public class Record extends JDialog implements ActionListener{
      }  
   }
   public void  writeRecord(String key,String message){
-     File f=new File("Ó¢ÐÛ°ñ.txt");
+     File f=new File("E:/Git/repository/saolei/src/Ó¢ÐÛ°ñ_1.txt");
      try{ FileInputStream in=new FileInputStream(f);
           ObjectInputStream object_in=new ObjectInputStream(in);
           Hashtable hashtable=(Hashtable)object_in.readObject();

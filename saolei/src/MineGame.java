@@ -9,7 +9,7 @@ public class MineGame extends JFrame implements ActionListener{
      JMenu fileMenu;
      JMenuItem ³õ¼¶,ÖÐ¼¶,¸ß¼¶,É¨À×Ó¢ÐÛ°ñ;
      MineArea mineArea=null;
-     File Ó¢ÐÛ°ñ=new File("Ó¢ÐÛ°ñ.txt");
+     File Ó¢ÐÛ°ñ_1=new File("E:/Git/repository/saolei/src/Ó¢ÐÛ°ñ_1.txt");
      Hashtable hashtable=null;
      ShowRecord showHeroRecord=null;
      MineGame(){
@@ -35,8 +35,8 @@ public class MineGame extends JFrame implements ActionListener{
          hashtable.put("³õ¼¶","³õ¼¶#"+999+"#ÄäÃû"); 
          hashtable.put("ÖÐ¼¶","ÖÐ¼¶#"+999+"#ÄäÃû");
          hashtable.put("¸ß¼¶","¸ß¼¶#"+999+"#ÄäÃû");
-         if(!Ó¢ÐÛ°ñ.exists()) {
-            try{ FileOutputStream out=new FileOutputStream(Ó¢ÐÛ°ñ);
+         if(!Ó¢ÐÛ°ñ_1.exists()) {
+            try{ FileOutputStream out=new FileOutputStream(Ó¢ÐÛ°ñ_1);
                  ObjectOutputStream objectOut=new ObjectOutputStream(out);
                  objectOut.writeObject(hashtable);
                  objectOut.close();

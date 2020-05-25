@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.awt.*;
 public class ShowRecord extends JDialog implements ActionListener{
-     File file=new File("英雄榜.txt");
+     File file=new File("E:/Git/repository/saolei/src/英雄榜_1.txt");
      String name=null;
      Hashtable hashtable=null;
      JButton 显示,重新记分;
