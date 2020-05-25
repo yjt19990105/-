@@ -16,7 +16,7 @@ public class MineArea extends JPanel implements ActionListener,MouseListener{
      Record record;
      public MineArea(int row,int colum,int mineCount,int grade) {
          reStart=new JButton("重新开始");
-         mark=new ImageIcon("mark.gif"); 
+         mark=new ImageIcon("E:/Git/repository/saolei/src/mark.gif"); 
          time=new Timer(1000,this);
          showTime=new JTextField(5);
          showMarkedMineCount=new JTextField(5);
